@@ -1,0 +1,134 @@
+body {
+  background-color: #CCCFD2;
+  font-size: 20px;
+}
+
+#head {
+  background-color: #194B6C;
+
+  color: #FDFDFD;
+  font-family:  Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 30px;
+
+  text-align: center;
+
+  width: 1500px;
+  height: 60px;
+  padding: 50px;
+  margin: -10px;
+}
+
+#middle {
+  position: absolute;
+  left: 390px;
+  top: 210px;
+  font-family: proxima-nova, sans-serif;
+  text-align: center;
+  background-color: #FDFDFD;
+  width: 820px;
+  border: 10px solid #a1a1a1;
+}
+
+#middle p{
+  margin: 10px 40px;
+}
+
+#right{
+  position: absolute;
+  left: 1270px;
+  height: 600px;
+  top: 210px;
+  font-family: proxima-nova, sans-serif;
+
+  border: 10px solid #a1a1a1;
+  width: 260px;
+}
+
+#left{
+  position: absolute;
+  left: 50px;
+  height: 425px;
+  text-align: center;
+  top: 210px;
+  font-family: proxima-nova, sans-serif;
+  background-color: #FDFDFD;
+
+  border: 10px solid #a1a1a1;
+  width: 275px;
+}
+
+#menu {
+  position: absolute;
+  font-family: proxima-nova, sans-serif;
+  background-color: #626272;
+  margin: 10px;
+  left: -40px;
+  width: 1628px;
+}
+
+#menu ul li:hover a{
+  background:#A1A1AC;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+}
+
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF9900;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #004573;
+  text-decoration: underline;
+}
+
+#menu ul li a{
+  float: left;
+  display: block;
+  padding: 10px;
+  width: 175px;
+  height: auto;
+  color: #FDFDFD;
+  text-align: center;
+  position: relative;
+}
+
+#welcome, #updates{
+  position: relative;
+  top: -25px;
+  padding: 20px;
+  background-color: #FFCC00;
+  font-size: 30px;
+}
+
+#pro{
+  position: relative;
+  top: -10px;
+}
+
+#updatelist{
+  position:relative;
+  left: -40px;
+}
+
+#updatelist li {
+  margin: 20px;
+  background-image: url(list.png);
+  background-repeat: no-repeat;
+  height: 95px;
+}

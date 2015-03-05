@@ -1,0 +1,24 @@
+<head>
+  <meta charset="utf-8" />
+  <% provide(:title, 'AlumServ') %>
+  <%= stylesheet_link_tag "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  <meta name="description" content="AlumServ, connecting alumni with recent graduates.">
+  <meta name="keywords" content="alumni, connect, graduates, recent, students, schools, networking">
+</head>
+
+<div class="center hero-unit">
+
+<h1>ALUMSERV</h1>
+
+<h2> Welcome to AlumServ</h2>
+<p>something about alumserv</p>
+
+<h2>Latest Updates</h2>
+    <ul id="updatelist">
+      <li>Johns Hopkins University connected to AlumServ.</li>
+      <li>University of Maryland connected to AlumServ.</li>
+    </ul>
+
+<%= link_to image_tag("alumserv_logo.png", alt: "AlumServ"), '#' %>
